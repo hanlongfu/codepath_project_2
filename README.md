@@ -84,6 +84,8 @@ GIF created with Awesome ChatGPT Screenshot and Screen Recorder (Chrome Extensio
 
 Describe any challenges encountered while building the app.
 
+The main challenge I faced was figuring out how to toggle the question and answer while also flipping the card at the same time.  
+
 
 
 \## License
