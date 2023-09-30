@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  color: white;
+}
+
+
+.Card{
+  width: 600px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 0px rgba(112,111,111,0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(112,111,111,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(112,111,111,0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.Card:hover{
+  -webkit-box-shadow:0px 0px 6px 6px rgba(84,87,86,0.9);
+  -moz-box-shadow: 0px 0px 6px 6px rgba(84,87,86,0.9);
+  box-shadow: 0px 0px 6px 6px rgba(84,87,86,0.9);
+}
